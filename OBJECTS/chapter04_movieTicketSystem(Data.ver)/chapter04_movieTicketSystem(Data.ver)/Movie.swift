@@ -15,13 +15,12 @@ struct Movie {
     private var movieType: MovieType
     private var discountAmount: Money
     private var discountPercent: Double
+}
+
+extension Movie {
     
     func getMovieType() -> MovieType {
         return self.movieType
-    }
-    
-    func getDiscountPercent() -> Double {
-        return self.discountPercent
     }
     
     mutating func setMovieType(movieType: MovieType) {
@@ -42,6 +41,10 @@ struct Movie {
     
     mutating func setDiscountAmount(discountAmount: Money) {
         self.discountAmount = discountAmount
+    }
+    
+    func getDiscountPercent() -> Double {
+        return self.discountPercent
     }
     
     mutating func setDiscountPercent(discountPercent: Double) {

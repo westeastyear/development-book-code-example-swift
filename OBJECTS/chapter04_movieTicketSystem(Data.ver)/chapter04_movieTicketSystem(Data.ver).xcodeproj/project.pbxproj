@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C8967602826BFB900BF6A7C /* DiscountConditionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89675F2826BFB900BF6A7C /* DiscountConditionType.swift */; };
 		9CA644F02826AF2300EE0F2E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA644EF2826AF2300EE0F2E /* main.swift */; };
 		9CA644F72826AF7900EE0F2E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA644F62826AF7900EE0F2E /* Movie.swift */; };
 		9CA644F92826AFD200EE0F2E /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA644F82826AFD200EE0F2E /* Money.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9C89675F2826BFB900BF6A7C /* DiscountConditionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountConditionType.swift; sourceTree = "<group>"; };
 		9CA644EC2826AF2300EE0F2E /* chapter04_movieTicketSystem(Data.ver) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "chapter04_movieTicketSystem(Data.ver)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA644EF2826AF2300EE0F2E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9CA644F62826AF7900EE0F2E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				9CA644FE2826B07F00EE0F2E /* MovieType.swift */,
 				9CA644F82826AFD200EE0F2E /* Money.swift */,
 				9CA644FA2826AFF600EE0F2E /* DiscountCondition.swift */,
+				9C89675F2826BFB900BF6A7C /* DiscountConditionType.swift */,
 			);
 			path = "chapter04_movieTicketSystem(Data.ver)";
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 				9CA644FF2826B07F00EE0F2E /* MovieType.swift in Sources */,
 				9CA644F72826AF7900EE0F2E /* Movie.swift in Sources */,
 				9CA644FB2826AFF600EE0F2E /* DiscountCondition.swift in Sources */,
+				9C8967602826BFB900BF6A7C /* DiscountConditionType.swift in Sources */,
 				9CA644F02826AF2300EE0F2E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
